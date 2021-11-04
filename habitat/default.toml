@@ -1,0 +1,17 @@
+# Chef Client Configuration Options
+interval = 10
+splay = 1
+splay_first_run = 0
+run_lock_timeout = 30
+log_level = "warn"
+env_path_prefix = "/sbin:/usr/sbin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin"
+verify_api_cert = false
+ssl_verify_mode = ':verify_none'
+
+[chef_license]
+acceptance = "accept"
+
+[automate]
+enable = true
+token = '{{Automate Auth Token}}'
+server_url = '{{Automate URL}}'

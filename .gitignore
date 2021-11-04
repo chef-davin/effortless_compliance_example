@@ -23,3 +23,8 @@ Policyfile.lock.json
 
 .idea/
 
+results/*
+results
+*.local.*
+
+.DS_Store

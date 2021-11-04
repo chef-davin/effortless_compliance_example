@@ -1,19 +1,7 @@
 name 'effortless_compliance'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'Davin Taddeo'
+maintainer_email 'davin@chef.io'
 license 'All Rights Reserved'
-description 'Installs/Configures effortless_compliance'
-version '0.1.0'
-chef_version '>= 16.0'
-
-# The `issues_url` points to the location where issues for this cookbook are
-# tracked.  A `View Issues` link will be displayed on this cookbook's page when
-# uploaded to a Supermarket.
-#
-# issues_url 'https://github.com/<insert_org_here>/effortless_compliance/issues'
-
-# The `source_url` points to the development repository for this cookbook.  A
-# `View Source` link will be displayed on this cookbook's page when uploaded to
-# a Supermarket.
-#
-# source_url 'https://github.com/<insert_org_here>/effortless_compliance'
+description 'Contains InSpec profiles and logic for doing compliance scans against systems'
+version '0.1.1'
+chef_version '>= 17.5'

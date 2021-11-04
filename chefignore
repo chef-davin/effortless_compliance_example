@@ -113,3 +113,8 @@ UPGRADING*
 ###########
 .vagrant
 Vagrantfile
+
+results/*
+results
+default.local.toml
+*.local.*

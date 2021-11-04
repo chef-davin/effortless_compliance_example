@@ -1,0 +1,10 @@
+name: windows_base
+title: Windows Base Profile
+maintainer: Davin Taddeo
+copyright: Davin Taddeo
+copyright_email: davin@chef.io
+license: Apache-2.0
+summary: An InSpec Compliance Profile For Windows Systems
+version: 0.1.0
+supports:
+  platform: windows
